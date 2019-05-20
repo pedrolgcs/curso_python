@@ -7,7 +7,7 @@ print(2 - 1)
 # multiplicao
 print(2 * 1)
 # divisao
-print('{:.2f}'.format(10 / 3), end = ' -> inteira ')
+print('{:.2f}'.format(10 / 3), end=' -> inteira ')
 # divisao inteira
 print(10 // 3)
 # potencia
