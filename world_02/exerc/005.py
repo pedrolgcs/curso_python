@@ -19,7 +19,7 @@ print('JO')
 sleep(1)
 print('kEN')
 sleep(1)
-print('PO!!')
+print('PO!!!')
 
 print('-=' * 11)
 print('Computador jogou {}'.format(computer_choice))
