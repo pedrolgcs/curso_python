@@ -16,9 +16,9 @@ while True:
     break
 
 print('JO')
-sleep(1)
+sleep(0.5)
 print('kEN')
-sleep(1)
+sleep(0.5)
 print('PO!!!')
 
 print('-=' * 11)
@@ -26,6 +26,7 @@ print('Computador jogou {}'.format(computer_choice))
 print('Jogador jogou {}'.format(player_choice))
 print('-=' * 11)
 
+# * Pedra
 if computer_choice == 'Pedra':
   if player_choice == 'Pedra':
     print('Jogo empatado')
@@ -34,6 +35,7 @@ if computer_choice == 'Pedra':
   else:
     print('Computador venceu!')
 
+# * Papel
 elif computer_choice == 'Papel':
   if player_choice == 'Papel':
     print('Jogo empatado')
@@ -42,13 +44,11 @@ elif computer_choice == 'Papel':
   else:
     print('Computador venceu!')
 
-elif computer_choice == 'Tesoura':
+# * Tesoura
+else:
   if player_choice == 'Tesoura':
     print('Jogo empatado')
   elif player_choice == 'Papel':
     print('Computador venceu!')
   else:
     print('Jogador venceu!')
-
-else:
-  print('Escolha invalida')
