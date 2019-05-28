@@ -14,7 +14,7 @@ while True:
     break
   else: 
     if player_choice > computer_choice:
-      print('Errou! Tente um número menor!: ')
+			print('Errou! Tente um número menor!: ')
     else:
       print('Errou! Tente um número maior!: ')
 
